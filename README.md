@@ -8,9 +8,9 @@ Currently supported exchanges in the application are: Bitstamp, Kraken, Bitfinex
 
 
 To run the application on localhost:
-1. Launch mongodb database with 'mongod'
-2. Start Flask server using 'FLASK_APP=run.py flask run'
-3. Start Vue frontend by 'cd frontend && npm run dev'
-4. Test on 'http://localhost:8000' or send GET request manually to 'http://localhost:5000/shortestPath'
+1. Launch mongodb database with `mongod`
+2. Start Flask server using `FLASK_APP=run.py flask run`
+3. Start Vue frontend by `cd frontend && npm run dev`
+4. Test on `http://localhost:8000` or send GET request manually to `http://localhost:5000/shortestPath`
 
 For production use **gunicorn** instead of Flask for running the server.
